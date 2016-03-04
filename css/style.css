@@ -1,5 +1,18 @@
-html{
-	background: cream;
-	color: red;
-	a-link: purple;
+/*#C88350 - tan brown
+#C7AB50 - light green
+#50C7BE - teal
+#5059C7 - light purple blue
+#8C8C8C - med gray
+#ffffff	- white */
+
+.callout.primary {
+	background-color: #c88350;
+}
+.off-canvas-content{
+	background-color: #C7AB50;
+}
+.thumbnail{
+	size: 100%;
+
+	
 }
