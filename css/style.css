@@ -11,8 +11,9 @@
 .off-canvas-content{
 	background-color: #C7AB50;
 }
-.thumbnail{
-	size: 100%;
-
-	
+button.button.expanded{
+	background: #50c7BE;
+}
+button.button.expanded:hover{
+	background: #5059C7;
 }
