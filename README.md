@@ -54,6 +54,8 @@ Requirements:
 		git push prodServer -tags
 		git push origin - tags
 
+	Week 2 - Continue website tweaks throughout week to be used in future portfolio utilizing above methods
+
 
 		
 	
