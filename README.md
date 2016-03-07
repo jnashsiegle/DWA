@@ -50,9 +50,9 @@ Requirements:
 	Future changes add version control
 		git commit -a
 		git tag -a v1.a -m 'added Readme.md Deployment Plan'
-		git push stageServer -tags
-		git push prodServer -tags
-		git push origin - tags
+		git push stageServer --tags
+		git push prodServer --tags
+		git push origin --tags
 
 	Week 2 - Continue website tweaks throughout week to be used in future portfolio utilizing above methods
 
