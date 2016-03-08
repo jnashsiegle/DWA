@@ -4,12 +4,18 @@
 #5059C7 - light purple blue
 #8C8C8C - med gray
 #ffffff	- white */
-
+a{
+	color: white;
+}
 .toDo {
 	margin: 10px;
 }
-span {
-	color:red;
+.inProgress{
+	color: #4C7D4C;
+}
+
+.finished{
+	color: blue;
 }
 
 .callout.primary {
