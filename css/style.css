@@ -5,6 +5,13 @@
 #8C8C8C - med gray
 #ffffff	- white */
 
+.toDo {
+	margin: 10px;
+}
+span {
+	color:red;
+}
+
 .callout.primary {
 	background-color: #c88350;
 }
@@ -35,8 +42,11 @@ button.button.expanded:hover{
   overflow: hidden;
   top: 0;
   left: 0; }
-.image-overlay-content li {
+.image-overlay-content p {
 	font-size: .75rem;
+}
+.image-overlay-content a {
+	color: #000034;
 }
 .overlay-slide-in-left img {
   transition: all 0.3s ease-in-out;
