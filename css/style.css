@@ -98,4 +98,7 @@ button.button.expanded:hover{
   opacity: 1;
   transition-delay: 0.4s; 
 }
+blockquote, cite{
+  color: white;
+}
 
