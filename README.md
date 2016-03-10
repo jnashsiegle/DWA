@@ -4,7 +4,7 @@ Sites are Live
 *Staging:* http://198.211.110.41/
 *Production:* http://192.34.60.127/
 
-*###Requirements:
+1.###Requirements:
 
 	-Local Development Environment
 		Git CLI
