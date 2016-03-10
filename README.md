@@ -55,7 +55,9 @@ Sites are Live
 		git push origin --tags
 
 	Week 2 - Continue website tweaks throughout week to be used in future portfolio utilizing above methods syncing prodServer and 	stageServer by Friday 11PM CST.
-
+1. First ordered list item
+2. Another item
+  * Unordered sub-list. 
 
 		
 	
