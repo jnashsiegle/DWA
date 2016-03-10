@@ -4,11 +4,11 @@ Sites are Live
 *Staging:* http://198.211.110.41/
 *Production:* http://192.34.60.127/
 
-1.###Requirements:
+###Requirements:
 
-	-Local Development Environment
-		Git CLI
-		Apache
+	1. Local Development Environment
+	*	Git CLI
+	*	Apache
 		
 	-Install new server – Digital Ocean
 		Git CLI
