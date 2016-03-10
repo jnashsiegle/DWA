@@ -1,31 +1,31 @@
 # DWA - My Deployment Plan
 
 Sites are Live 
-Staging: http://198.211.110.41/
-Production: http://192.34.60.127/
+*Staging:* http://198.211.110.41/
+*Production:* http://192.34.60.127/
 
-Requirements:
+###Requirements:
 
-	Local Development Environment
+	*Local Development Environment
 		Git CLI
 		Apache
 		
-	Install new server – Digital Ocean
+	*Install new server – Digital Ocean
 		Git CLI
 		Apache
 		Server Name prodServer
 		192.34.60.127
 
-	Install second server – Digital Ocean
+	*Install second server – Digital Ocean
 		Git CLI
 		Apache
 		Server Name stageServer
 		198.211.110.41
 
-	Backup on Github.com
+	*Backup on Github.com
 		Git Push Origin
 
-	Rough Draft Portfolio Website
+	*Rough Draft Portfolio Website
 		Foundation Framework Front End
 		Minimum 10 Assignments/Projects displayed
 
@@ -54,7 +54,7 @@ Requirements:
 		git push prodServer --tags
 		git push origin --tags
 
-	Week 2 - Continue website tweaks throughout week to be used in future portfolio utilizing above methods
+	Week 2 - Continue website tweaks throughout week to be used in future portfolio utilizing above methods syncing prodServer and 	stageServer by Friday 11PM CST.
 
 
 		
