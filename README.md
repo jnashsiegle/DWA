@@ -1,64 +1,57 @@
 # DWA - My Deployment Plan
 
 Sites are Live 
-Staging: http://198.211.110.41/
-Production: http://192.34.60.127/
+*Staging:* http://198.211.110.41/
+*Production:* http://192.34.60.127/
 
-Requirements:
+###Requirements:
 
-	Local Development Environment
-		Git CLI
-		Apache
-		
-	Install new server – Digital Ocean
-		Git CLI
-		Apache
-		Server Name prodServer
-		192.34.60.127
+1. Local Development Environment
+ * Git CLI
+ * Apache
 
-	Install second server – Digital Ocean
-		Git CLI
-		Apache
-		Server Name stageServer
-		198.211.110.41
+2. Install New Server - Digital Ocean
+  * Git CLI
+  * Apache
+  * Server Name prodServer
+  * 192.34.60.127
 
-	Backup on Github.com
-		Git Push Origin
+3.  Install Second Server - Digital Ocean
+  * Git CLI
+  * Apache
+  * Server Name stageServer
+  * 198.211.110.41
 
-	Rough Draft Portfolio Website
-		Foundation Framework Front End
-		Minimum 10 Assignments/Projects displayed
+4. Backup on [Github.com](https://github.com/jnashsiegle/DWA)
 
-	Process:
-		
-	Develop Website to solid foundational beginning on Localhost – MAMP
+5. Rough Draft One Page Portfolio
+  * Foundation Framework Front End
+  * Minimum 10 Assignments/Projects displayed
 
-	Commit All Changes
-		Commit  -a –m “relevant commit message here”
-	
-	Upload first to stageServer – 198.211.110.41
-		Git push stageServer
+###Process:
 
-	Test and Verify Site – Upon completion upload to production
+1. Develop Portfolio to solid foundational beginning on Localhost - MAMP
 
-	After verification / testing upload to prodServer – 192.34.60.127
-		Git push prodServer
+2.  Commit All Changes via CLI
+    * Commit -a -m 'relevant commit message here'
 
-	Back up all files to github.com 
-		Git push origin
+3. Upload to stageServer - 198.211.110.41
+   *Git push stageServer
 
-	Future changes add version control
-		git commit -a
-		git tag -a v1.a -m 'added Readme.md Deployment Plan'
-		git push stageServer --tags
-		git push prodServer --tags
-		git push origin --tags
+4.  Test and Verify Page Functionality and Appearance
 
-	Week 2 - Continue website tweaks throughout week to be used in future portfolio utilizing above methods
+5.  Once verified upload to prodServer - 192.34.60.127
+   *Git push prodServer
 
+6.  Back up all files to github.com
+   * Git push origin
 
-		
-	
-
-
-
+7.  Future changes add version control for each section pushing first to stage until section complete then push to prodServer
+   * git commit -a
+   * git tag -a v1.a -m 'added Readme.md Deployment Plan'
+   * git push stageServer --tags
+   * git push prodServer --tags
+   * git push origin --tags
+ 
+Week 2
+   * Continue website functionality and design changes throughout the week to be used in future live portfolio.  Utilize above methods of syncing prodServer and stageServer with final sync committed (for grade) by Friday 3/11/2016 11PM CST.
